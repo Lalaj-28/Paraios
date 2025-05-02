@@ -1,0 +1,219 @@
+body {
+    background-color: #000000;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    touch-action: none;
+    font-family: Arial, sans-serif;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.flex {
+    display: flex;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.border-border {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.relative {
+    position: relative;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.rounded-2xl {
+    border-radius: 1rem;
+}
+
+.border {
+    border-width: 1px;
+    border-style: solid;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.bg-background\/100 {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.opacity-1003xl {
+    opacity: 1;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.space-y-6 > * + * {
+    margin-top: 1.5rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.text-foreground\/40 {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.bg-primary {
+    background-color: #9400D3;
+}
+
+.text-primary-foreground {
+    color: white;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.hover\:bg-primary\/90:hover {
+    background-color: rgba(148, 0, 211, 0.9);
+}
+
+.space-y-2 > * + * {
+    margin-top: 0.5rem;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.rounded-sm {
+    border-radius: 0.125rem;
+}
+
+.size-4 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.inject-container {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+#injectButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #9400D3;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+#injectButton:hover {
+    background-color: #7b00ac;
+}
+
+/* Checkbox styling */
+[role="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+[role="checkbox"][aria-checked="true"] {
+    background-color: #9400D3;
+    border-color: #9400D3;
+}
+
+[role="checkbox"][aria-checked="true"]::after {
+    content: "✓";
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    line-height: 1;
+}
+
+/* Dark mode specific styles */
+.dark {
+    color-scheme: dark;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

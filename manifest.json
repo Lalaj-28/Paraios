@@ -1,0 +1,21 @@
+{
+  "name": "ZSensi",
+  "short_name": "ZSensi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020203",
+  "theme_color": "#020203",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://www.zsensi.xyz/images/logo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.zsensi.xyz/images/logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
